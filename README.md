@@ -12,18 +12,15 @@ This solution focuses on using VS Code as IDE and Node JS as our Angular Package
 	1. Install latest version of node js 
 	https://nodejs.org/en/
 	
-	2. Install Angular CLI
-	https://cli.angular.io/
+	2. Install Angular CLI as described below
 	
 	In Windows Command prompt, type the following
 	npm instal -g @angular/cli
 
+    3. Install VS Code - Latest Version
+    https://code.visualstudio.com/
 
-Softwares required
-
-Node JS - https://nodejs.org/en/
-Angular CLI - https://cli.angular.io/
-VS Code - https://code.visualstudio.com/
-GIT - https://git-scm.com/download/win
-
+    4. Install GIT - Latest Version
+    https://git-scm.com/download/win
+    
 
