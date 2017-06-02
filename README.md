@@ -56,5 +56,13 @@ In the VS Code Integrated Terminal, run the below command to create a new angula
 
     The above command compiles the solution and runs the application at http://localhost:4200
 
-    
+
+One last step. To make good looking responsive web app, we can use Bootstrap. It is upon you if you want to use it or not.
+
+    Adding bootstrap to the project. In the VS Code Integrated Terminal, with the path as the angular app folder, type the following command
+    npm install --save bootstrap
+
+    The node package manager adds required files for bootstrap to the project.
+
+
 
