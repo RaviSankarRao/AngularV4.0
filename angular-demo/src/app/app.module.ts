@@ -11,6 +11,7 @@ import { InfoAlertComponent } from './info-alert/info-alert.component';
 import { DangerAlertComponent } from './danger-alert/danger-alert.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { IfElseComponent } from './if-else/if-else.component';
+import { StyleDirectiveComponent } from './style-directive/style-directive.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { IfElseComponent } from './if-else/if-else.component';
     InfoAlertComponent,
     DangerAlertComponent,
     DataBindingComponent,
-    IfElseComponent
+    IfElseComponent,
+    StyleDirectiveComponent
   ],
   imports: [
     BrowserModule,

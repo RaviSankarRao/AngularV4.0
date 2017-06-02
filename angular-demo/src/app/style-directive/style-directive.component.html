@@ -1,0 +1,7 @@
+<h4>Using ngStyle Directive</h4>
+
+<button 
+  class="btn btn-primary"
+  (click)="onGetStatus()" >Get Status </button>
+
+  <p [ngStyle]="{ backgroundColor : getStatusColor() }"> Server is {{ serverStatus }} </p>
