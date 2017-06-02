@@ -22,5 +22,12 @@ This solution focuses on using VS Code as IDE and Node JS as our Angular Package
 
     4. Install GIT - Latest Version
     https://git-scm.com/download/win
+
+
+By default VS Code and GIT will be integrated (latest version feature of VS Code). The only thing which is required is to connect to a specific repository.
+
+    Use the following commands to connect to your account
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
     
 
