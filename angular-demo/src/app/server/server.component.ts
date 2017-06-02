@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
 })
 
 export class ServerComponent{
+    serverId = 10;
+    serverStatus = 'offline';
 
+    // type script type assignment
+    //serverId: number = 10;
+    //serverStatus: string = 'offline';
 }
