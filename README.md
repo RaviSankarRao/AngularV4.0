@@ -33,4 +33,9 @@ By default VS Code and GIT will be integrated (latest version feature of VS Code
     If VS Code and GIT are not integrated by default as an editor, use the following command 
     git config --global core.editor "code --wait"
     
+Once the above steps are done, you need to clone your repository. You can create a new repository in GIT and clone the same.
 
+    Run VS Code, Open View > Integrated terminal and run the below command
+    git clone <git repo URL>
+
+    
