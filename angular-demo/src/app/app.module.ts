@@ -10,6 +10,7 @@ import { SuccessalertComponent } from './successalert/successalert.component';
 import { InfoAlertComponent } from './info-alert/info-alert.component';
 import { DangerAlertComponent } from './danger-alert/danger-alert.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
+import { IfElseComponent } from './if-else/if-else.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     SuccessalertComponent,
     InfoAlertComponent,
     DangerAlertComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    IfElseComponent
   ],
   imports: [
     BrowserModule,
