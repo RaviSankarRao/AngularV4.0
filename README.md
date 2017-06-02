@@ -30,7 +30,7 @@ By default VS Code and GIT will be integrated (latest version feature of VS Code
     git config --global user.name "John Doe"
     git config --global user.email johndoe@example.com
 
-If VS Code and GIT are not integrated by default as an editor, use the following command 
+    If VS Code and GIT are not integrated by default as an editor, use the following command 
     git config --global core.editor "code --wait"
     
 
