@@ -26,8 +26,11 @@ This solution focuses on using VS Code as IDE and Node JS as our Angular Package
 
 By default VS Code and GIT will be integrated (latest version feature of VS Code). The only thing which is required is to connect to a specific repository.
 
-    Use the following commands to connect to your account
-    $ git config --global user.name "John Doe"
-    $ git config --global user.email johndoe@example.com
+    Use the following commands in git command prompt to connect to your account
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
+
+If VS Code and GIT are not integrated by default as an editor, use the following command 
+    git config --global core.editor "code --wait"
     
 
