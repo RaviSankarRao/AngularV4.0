@@ -12,6 +12,7 @@ import { IfElseComponent } from './concepts/if-else/if-else.component';
 import { StyleDirectiveComponent } from './concepts/style-directive/style-directive.component';
 import { WarningAlertComponent } from './shared/warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './shared/success-alert/success-alert.component';
+import { ClassDirectiveComponent } from './concepts/class-directive/class-directive.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SuccessAlertComponent } from './shared/success-alert/success-alert.comp
     IfElseComponent,
     StyleDirectiveComponent,
     WarningAlertComponent,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    ClassDirectiveComponent
   ],
   imports: [
     BrowserModule,
