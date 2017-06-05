@@ -1,4 +1,4 @@
-<h4>If-Else in Angular - ngIf Directive </h4>
+<h4>ngIf and ngFor Directive </h4>
 
 <label>Server Name </label>
 
@@ -18,4 +18,8 @@ Add Server
 <ng-template #noServer>
   <p>No server was created.</p>
 </ng-template>
+
+<ul>
+<li *ngFor="let server of servers"> {{server}} </li>
+</ul>
 

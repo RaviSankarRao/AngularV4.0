@@ -9,6 +9,7 @@ export class IfElseComponent implements OnInit {
 
   serverName = "";
   showServerName = false;
+  servers = ['test server 1','test server 2'];
 
   constructor() { }
 
@@ -17,5 +18,6 @@ export class IfElseComponent implements OnInit {
 
   onAddServer(){
     this.showServerName = true;
+    this.servers.push(this.serverName);
   }
 }
