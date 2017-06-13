@@ -11,7 +11,9 @@ export class CockpitComponent implements OnInit {
 
   //newServerName = '';
   //newServerContent = '';
+
   @ViewChild('serverContentInput') serverContentInput :ElementRef ;
+  //View Child - gets access to template and DOM of a component
 
   constructor() { }
 
@@ -19,7 +21,7 @@ export class CockpitComponent implements OnInit {
   }
 
   onAddServer(nameInput:HTMLInputElement) {
-    console.log(nameInput.value);
+    //console.log(nameInput.value);
     this.serverCreated.emit({
       serverName:nameInput.value,
       //serverContent:this.newServerContent
@@ -28,7 +30,7 @@ export class CockpitComponent implements OnInit {
   }
 
   onAddBlueprint(nameInput:HTMLInputElement) {
-    console.log(nameInput.value);
+    //console.log(nameInput.value);
     this.blueprintCreated.emit({
       serverName:nameInput.value,
       //serverContent:this.newServerContent
